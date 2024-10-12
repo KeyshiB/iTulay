@@ -21,6 +21,31 @@
     padding: 0;
   }
 
+  .type-fira {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .sign-up-btn {
+    width: 100px;
+    height: 40px;
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    border: none;
+    background-color: var(--color-green-3);
+    color: var(--color-cream)
+  }
+  .cta-btn {
+    width: 100px;
+    height: 40px;
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    border: none;
+    background-color: var(--color-orange-1);
+    color: var(--color-cream)
+  }
+
   body {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
@@ -38,11 +63,10 @@
     margin-right: auto;
   }
   .nav-logo-container{
-    padding-right: 10px;
+    padding-right: 15px;
   }
   .nav-logo {
     width: 100px;
-    fill: var(--color-cream);
   }
   .nav-link {
     color: var(--color-cream);
@@ -54,6 +78,4 @@
   .nav-link:active {
     color: var(--color-green-2);
   }
-  .nav-button button {
-    padding: 20px;
-  }
+  
