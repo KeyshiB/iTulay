@@ -16,9 +16,11 @@
   --color-cream:#FFF7EF; /*cream*/  
   }
 
-  * {
+  
+  body {
     margin: 0;
     padding: 0;
+    height: 100%;
   }
 
   .type-fira {
@@ -79,3 +81,46 @@
     color: var(--color-green-2);
   }
   
+  main {
+    background-color: var(--color-cream);
+  }
+  .header-container {
+    height: 100vh;
+    background-color: var(--color-cream);
+  }
+  .header-content {
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .header-head {
+    font-size: 48px;
+    font-weight: 700;
+  }
+  .header-subhead {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--color-orange-1);
+  }
+  .search-form {
+    max-width: 350px;
+  }
+  .search-input {
+    width: 300px;
+    height: 40px
+  }
+  .search-btn {
+    width: 50px;
+    height: 40px;
+  }
+
+  .container-2 {
+    height: 100vh;
+    background-color: var(--color-green-3);
+  }
+  .content-2 {
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+  }
