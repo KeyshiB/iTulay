@@ -29,6 +29,15 @@
     font-style: normal;
   }
 
+  .type-cream {
+    color: var(--color-cream);
+  }
+  .type-neon {
+    color: var(--color-green-1);
+  }
+  .type-orange {
+    color: var(--color-orange-1);
+  }
   .sign-up-btn {
     width: 100px;
     height: 40px;
@@ -94,14 +103,17 @@
     margin-left: auto;
     text-align: center;
   }
-  .header-head {
+  .heading1 {
     font-size: 48px;
     font-weight: 700;
   }
-  .header-subhead {
+  .subheading {
     font-size: 24px;
     font-weight: 500;
-    color: var(--color-orange-1);
+  }
+  .heading2 {
+    font-size: 36px;
+    font-weight: 700;
   }
   .search-form {
     max-width: 350px;
