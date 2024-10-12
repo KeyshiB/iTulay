@@ -136,3 +136,25 @@
     margin-right: auto;
     margin-left: auto;
   }
+  .text {
+    width: 30%;
+    margin-right: 10%;
+  }
+  .video{
+    width: 60%;
+    background-color: var(--color-cream);
+  }
+  .container-3 {
+    background-image: url(../assets/background/bg-img.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  .content-3 {
+    background-color: var(--color-cream);
+    max-width: 520px;
+    height: 410px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 50px;
+  }
