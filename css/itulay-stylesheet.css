@@ -1,0 +1,59 @@
+:root {
+  --color-gray-light-1:#F5F5F5; /* whitesmoke */
+  
+  --color-gray-dark-1:#DDD;
+  --color-gray-dark-2:#AAA;
+  --color-gray-dark-3:#999;
+  --color-gray-dark-4:#555;
+  --color-gray-dark-5:#333;
+  
+  --color-orange-1:#FF601B; /*orange*/
+
+  --color-green-1:#B8EC0B; /*neon green*/
+  --color-green-2:#327E5B; /*green*/
+  --color-green-3:#173400; /*dark green*/
+
+  --color-cream:#FFF7EF; /*cream*/  
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: var(--color-green-3);
+    font-size: 14px;
+  }
+  .navbar {
+    background-color: var(--color-orange-1);
+    min-height: 64px;
+  }
+  .navbar-container{
+    padding: 0px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .nav-logo-container{
+    padding-right: 10px;
+  }
+  .nav-logo {
+    width: 100px;
+    fill: var(--color-cream);
+  }
+  .nav-link {
+    color: var(--color-cream);
+    font-weight: 700;
+  }
+  .nav-link:hover {
+    color: var(--color-green-1);
+  }
+  .nav-link:active {
+    color: var(--color-green-2);
+  }
+  .nav-button button {
+    padding: 20px;
+  }
