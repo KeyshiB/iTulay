@@ -28,7 +28,6 @@
     font-weight: 400;
     font-style: normal;
   }
-
   .type-cream {
     color: var(--color-cream);
   }
@@ -37,6 +36,9 @@
   }
   .type-orange {
     color: var(--color-orange-1);
+  }
+  .type-green {
+    color: var(--color-green-2);
   }
   .sign-up-btn {
     width: 100px;
@@ -125,11 +127,15 @@
     font-weight: 700;
   }
   .subheading {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
   }
   .heading2 {
     font-size: 36px;
+    font-weight: 700;
+  }
+  .heading3 {
+    font-size: 20px;
     font-weight: 700;
   }
   .search-form {
@@ -174,10 +180,10 @@
   .content-3 {
     background-color: var(--color-cream);
     max-width: 520px;
-    height: 410px;
+    height: 430px;
     margin-right: auto;
     margin-left: auto;
-    padding: 50px;
+    padding: 40px;
   }
   .container4 {
     height: 100vh;
@@ -192,14 +198,21 @@
   }
   .footer-content {
     max-width: 960px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto 20px auto;
   }
   .footer-logo {
     width: 150px;
   }
   .footer-text {
-    max-width: 400px;
+    max-width: 450px;
+    margin: 25px 0;
+  }
+  .footer-nav, .footer-contact{
+    padding:0;
+  }
+  .footer-list {
+    list-style-type: none;
+    margin: 10px 0;
   }
   .subfooter{
     background-color: var(--color-orange-1);
