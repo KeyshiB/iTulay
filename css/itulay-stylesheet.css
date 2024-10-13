@@ -54,7 +54,24 @@
     font-weight: 700;
     border: none;
     background-color: var(--color-orange-1);
-    color: var(--color-cream)
+    color: var(--color-cream);
+    transition: background-color 0.3s ease;
+  }
+  .cta-btn:hover {
+    background-color: var(--color-green-2);
+  }
+  .rsc-btn {
+    height: 40px;
+    width: 190px;
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    border: none;
+    color: var(--color-cream);
+    background-color: var(--color-green-2);
+    transition: background-color 0.3s ease;
+  }
+  .rsc-btn:hover {
+    background-color: var(--color-green-3);
   }
 
   body {
@@ -126,6 +143,10 @@
     width: 50px;
     height: 40px;
   }
+  .card {
+    background-color: var(--color-cream);
+    border: 2px solid var(--color-green-2)
+  }
 
   .container-2 {
     height: 100vh;
@@ -157,4 +178,30 @@
     margin-right: auto;
     margin-left: auto;
     padding: 50px;
+  }
+  .container4 {
+    height: 100vh;
+  }
+  .content4 {
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  footer {
+    background-color: var(--color-cream);
+  }
+  .footer-content {
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .footer-logo {
+    width: 150px;
+  }
+  .footer-text {
+    max-width: 400px;
+  }
+  .subfooter{
+    background-color: var(--color-orange-1);
+    height: 34px;
   }
