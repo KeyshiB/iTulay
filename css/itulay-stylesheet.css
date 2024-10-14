@@ -35,6 +35,11 @@
     font-weight: 400;
     font-style: normal;
   }
+  .type-pt {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
   .type-cream {
     color: var(--color-cream);
   }
@@ -82,6 +87,27 @@
   .rsc-btn:hover {
     background-color: var(--color-green-3);
   }
+  .btn {
+    height: 40px;
+    width: 165px;
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    border: none;
+    color: var(--color-cream);
+    background-color: var(--color-green-2);
+    transition: background-color 0.3s ease;
+  }
+  .btn:hover {
+    background-color: var(--color-green-3);
+    color: var(--color-cream);
+  }
+  .section-label {
+    height: 40px;
+    color: var(--color-cream);
+    background-color: var(--color-green-3);
+    margin: 0;
+  }
+
 
   .navbar {
     background-color: var(--color-orange-1);
@@ -115,13 +141,11 @@
   }
   .header-container {
     height: 100vh;
-    background-color: var(--color-cream);
   }
   .header-content {
     max-width: 960px;
     margin-right: auto;
     margin-left: auto;
-    text-align: center;
   }
   .heading1 {
     font-size: 48px;
@@ -153,18 +177,19 @@
   .header-illus {
     margin-top: 40px;
   }
-  .card {
+  .i-card {
     width: 220px;
     padding: 10px;
     background-color: var(--color-cream);
     border: 3px solid var(--color-green-2);
+    border-radius: 10px;
     transition: border 0.3s ease;
   } 
-  .card:hover {
+  .i-card:hover {
     border: 3px solid var(--color-green-1);
   }
 
-  .card-text {
+  .i-card-text {
     margin: 0;
   }
 
@@ -207,6 +232,18 @@
     margin-right: auto;
     margin-left: auto;
   }
+
+  /*--------------------------------------about-us------------------------------------------*/
+
+  .abt-container2 {
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  /*----------------------------------end-of-about-us---------------------------------------*/
+
+  /*-------------------------------footer-----------------------------------*/
   footer {
     background-color: var(--color-cream);
   }
