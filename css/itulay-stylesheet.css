@@ -103,9 +103,14 @@
   }
   .section-label {
     height: 40px;
+    width: 120px;
     color: var(--color-cream);
     background-color: var(--color-green-3);
-    margin: 0;
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
 
@@ -235,12 +240,31 @@
 
   /*--------------------------------------about-us------------------------------------------*/
 
-  .abt-container2 {
+  .abt-container2, .abt-container3, .abt-content4, .abt-container5{
     max-width: 960px;
+    height: 100vh;
     margin-right: auto;
     margin-left: auto;
   }
-
+  .abt-container3-img {
+    height: 375px;
+  }
+  .abt-container4 {
+    background-color: var(--color-green-3);
+  }
+  .team-card {
+    width: 225px;
+    height: 315px;
+  }
+  .team-img {
+    height: 225px;
+  }
+  .team-name {
+    background-color: var(--color-orange-1);
+  }
+  .team-position {
+    font-weight: 700;
+  }
   /*----------------------------------end-of-about-us---------------------------------------*/
 
   /*-------------------------------footer-----------------------------------*/
@@ -264,6 +288,12 @@
   .footer-list {
     list-style-type: none;
     margin: 10px 0;
+  }
+  .footer-list a {
+    transition: color 0.3s ease;
+  }
+  .footer-list a:hover {
+    color: var(--color-green-1)
   }
   .subfooter{
     background-color: var(--color-orange-1);
